@@ -32,7 +32,7 @@ module.exports = function (config) {
       suppressAll: true, // removes the duplicated traces
     },
     coverageReporter: {
-      dir: require("path").join(__dirname, "../../coverage/json-editor-app"),
+      dir: require("path").join(__dirname, "../../coverage/json-editor-ui"),
       subdir: ".",
       reporters: [{ type: "html" }, { type: "text-summary" }],
     },
