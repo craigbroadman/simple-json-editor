@@ -27,7 +27,7 @@ jobs:
       - name: Deploy 🚀
         uses: JamesIves/github-pages-deploy-action@v4.2.5
         with:
-          repository-name: craigbroadman/craigbroadman.github.io.
+          repository-name: craigbroadman/craigbroadman.github.io
           branch: gh-pages
           folder: dist/json-editor-app
           target-folder: json-editor
